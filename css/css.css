@@ -1,0 +1,430 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --main: #3f3f60;
+    --primary: #c1c3c3;
+    --others: #000;
+    --icon: #2b5ff1;
+}
+
+/* styling menu */
+.navbar {
+    background-color:var(--main);
+}
+
+.navbar a{
+    color: #fff;
+}
+
+.navbar a:hover{
+    color: #fc6161;
+}
+
+.dropdown-menu li a {
+color: #f9f3f3;
+}
+
+.drop ul {
+        background-color: #29b6af;
+    }
+
+/* styling menu ends */
+
+
+
+
+/* styling box*/
+
+#box {
+    padding: 10rem 0 5rem 0;
+    background-color: #000;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 .image1 p{
+    text-align: center;
+    font-size: 3rem;
+     margin-right: 8rem;
+   padding: 6rem 8rem;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.boot {
+    /* margin-top: -4rem; */
+    flex-basis: 50%;
+    color: #fff;
+    width: 100%;
+   
+}
+
+.boot h1 {
+    font-size: 3rem;
+    padding: 0 0 0 6rem;
+}
+
+.boot p{
+    font-size: 1.25rem;
+    padding: 0 0 0 6rem;
+}
+
+.boot .bbt {
+    margin-left: 6rem;
+}
+
+.boot .bbn {
+    color: #fff;
+    margin-left: 2.5rem;
+    border: 0.5px solid #fff;
+}
+
+.boot .bbn:hover {
+    color: #fff;
+    border: 0.5px solid #fff;
+}
+
+/* styling box end */
+
+
+
+/* styling divide */
+.divide1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem !important;
+    margin-top: 5rem;
+    
+}
+
+.only {
+    margin-left: 6rem;
+}
+
+.only h2 {
+    font-weight: bolder;
+}
+
+.first {
+    margin-left: 8rem auto;
+    flex-basis: 30%;
+    gap: 1.8rem;
+    margin-right: 6rem;
+    
+}
+
+.d-flex .p-2 i {
+    padding: 0.6rem 0.8rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #fff;
+    
+}
+
+.divide1  .first h3 {
+    margin-top: 2rem !important;
+    font-size: 1.2rem;
+}
+
+/* styling divide ends */
+
+
+
+/* Styling middle */
+
+#middle .middle1 {
+    text-align: center;
+    background-color: #f3f3f3;
+    margin: 4rem 0;
+    padding: 0 0 6rem 0;
+}
+
+#middle .middle1 .bold {
+    padding-top: 6rem;
+    font-size: 1.5rem;
+    width: 45%;
+    margin-left: 28%;
+    font-style: italic;
+}
+
+#middle .middle1 .bb .bold1 p span {
+    padding: 1rem 0.6rem;
+    border-radius: 100%;
+    background-color: #c7cacd;
+    font-size: 8px;
+    font-weight: 100;
+}
+
+#middle .middle1 .bb .bold1 p mark {
+    color: blue !important;
+    background-color: #f1f3f3;
+}
+
+
+#middle .middle1 .bb .bold1 p {
+    font-weight: bolder;
+}
+/* Styling middle done */
+
+
+
+/* styling blo */
+
+
+#blo .card .card2 p {
+padding: 4rem 0;
+/* background-color: #dfdfe8 !important; */
+font-size: 3rem;
+font-weight: 350;
+color: #747272;
+}
+
+.bloo {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 10rem;
+}
+
+.card {
+    gap: 0.1rem;
+    box-shadow: 0 0 15px #e2dbdb;
+}
+
+.card .card-body h6 {
+padding: 0.2rem 0;
+width: 17%;
+border-radius: 30px;
+color: #fff;
+font-size: 12.5px;
+text-align: center;
+
+}
+
+.card .card-body p span {
+    padding: 1rem 0.6rem;
+    border-radius: 100%;
+    background-color: #c7cacd;
+    font-size: 8px;
+    margin-right: 0.5rem;
+}
+
+.card .card-body .bold1 p {
+font-weight: bolder;
+}
+
+.card .card-body .bold1 p.mar {
+    font-weight: 400;
+    margin: -1rem 0 1rem 3.5rem;
+
+}
+
+.card .card-body p.card-text {
+   padding-bottom: 3rem !important;
+
+}
+/* styling blo end */
+
+
+/* styling section container */
+.container .con h1{
+    margin-top: 5rem !important;
+    font-weight: bolder;
+}
+
+.container .con p{
+    margin-bottom: 3rem !important;
+    font-size: 1.2rem;
+    color: grey;
+}
+/* styling section container done */
+
+
+
+/* styling social */
+.social {
+    background-color: #f7f7fb;
+    border-radius: 10px;
+    margin:3rem 0 5rem 1.4rem !important;
+    width: 30% !important;
+}
+
+
+.social h6 {
+    margin-top: 2.5rem;
+    font-weight: bolder;
+    
+}
+
+
+
+.social .ic i {
+    font-size: 1.2rem;
+    color: #000;
+    padding: 0 0.5rem !important;
+}
+/* styling social done */
+
+
+
+/* styling com */
+.com {
+    box-shadow: 0 0 12px rgb(189, 189, 189);
+    border-radius: 10px;
+} 
+
+.container.ccc {
+    margin: 2rem 4rem 5rem 10rem !important;
+    width: 80%;
+}
+
+.comm {
+    padding: 6rem 3.5rem;
+    width: 35% !important;
+    margin-left: 2rem;
+}
+
+.cb h4 {
+    margin-top: 3rem !important;
+    /* margin-left: 1rem !important; */
+}
+
+ p.com1 {
+    width: 12%;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12.5px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.com2 {
+     background-color: #3d3e40;
+     padding: 4rem 0 0 4rem;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     margin-left: 2.2rem !important;
+}
+
+p.com2b {
+    color: #858c8d;
+    font-size: 6rem;
+    font-weight: 100 !important;
+    padding: 5rem 0 0 0 !important;
+   
+}
+
+/* styling com done */
+
+
+
+
+/* styling sb */
+section.sb {
+    background-color: #f2f7f7 !important;
+    padding: 3rem 0;
+}
+
+.nnn {
+    margin: 3rem 0;
+}
+
+.m {
+    margin-left: 35rem;
+}
+
+.pi {
+    margin: 2rem 0 !important;
+    padding: 6rem 3rem !important;
+    background-color: #fff;
+    width: 30% !important;
+    border-radius: 10px;
+}
+
+.pi i {
+    color: #0e0d0d;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.hh {
+    margin: 0 0 -2.5rem 10rem !important;
+}
+
+/* styling sb done */
+
+
+
+
+
+
+/* styling footer */
+
+footer .ft {
+    border-radius: 10px;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer p {
+    color: #cfcccc;
+}
+
+footer input {
+   margin-left: 7rem;
+   padding: 0.4rem 2.8rem 0.4rem 1rem;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border: 0.5px solid #fff;
+}
+
+footer p.bp {
+    margin-top: 0.5rem;
+    margin-left: 7rem;
+    color: #cfcccc;
+ }
+
+ footer button {
+    margin-left: -2rem;
+    padding: 0.4rem 1rem 0.4rem 2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0.5px solid #fff;
+    background-color: transparent;
+ }
+/* styling footer end */
+
+
+
+/* Copyright */
+
+.cp {
+    background-color: #202222;
+    color: #f1f3f3;
+
+}
+
+.cp ul {
+    margin-left: 15rem;
+}
+
+.cp ul li {
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: #faffff;
+}
+/* Copyright end */
+  
+
+
